@@ -1,0 +1,66 @@
+.icon-image {
+  text-align: center;
+}
+
+body {
+  font-family: "Courgette", cursive;
+  background-color: #c0cad1;
+}
+
+.name {
+  font-style: italic;
+  text-align: center;
+  color: #2f4f4f;
+  text-shadow:
+
+}
+
+.description {
+  text-decoration: underline;
+  font-size: 20px;
+  font-style: normal;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: #333;
+    background-color: #333;
+}
+
+.fa-icon {
+    font-size: 50px;
+}
+
+.fa-heart {
+    font-size: 36px;
+    color: blue;
+}
+
+@media screen and (min-width: 500px) {
+  body {background-color: #c0cad1;}
+}
+
+@media screen and (min-width: 800px) {
+  body { background-color: #7491a5 ;}
+}
+
+
+
+.center-image {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+
+}
+
+
+.social-media {
+    font-size: 2em;
+    text-align: center;
+}
