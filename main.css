@@ -1,65 +1,68 @@
 .icon-image {
-  text-align: center;
+    text-align: center;
 }
-
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
 body {
-  font-family: "Courgette", cursive;
-  background-color: #c0cad1;
+    font-family: "Courgette", cursive;
+    background-color: #c0cad1;
 }
-
 .name {
-  font-style: italic;
-  text-align: center;
-  color: #2f4f4f;
-  text-shadow:
-
+    font-style: italic;
+    text-align: center;
+    color: #2f4f4f;
+    font-size: 30;
 }
 
+.myname {
+    font-style: normal;
+    text-align: center;
+    color: #2f4f4f;
+    font-size: 32px;
+}
 .description {
-  text-decoration: underline;
-  font-size: 20px;
-  font-style: normal;
+    font-size: 20px;
+    font-style: normal;
 }
-
 hr {
     border: none;
     height: 3px;
     color: #333;
     background-color: #333;
 }
-
 .fa-icon {
     font-size: 50px;
 }
-
 .fa-heart {
     font-size: 36px;
     color: blue;
 }
 
 @media screen and (min-width: 500px) {
-  body {background-color: #c0cad1;}
+    body {
+        background-color: #c0cad1;}
+  }
 }
 
 @media screen and (min-width: 800px) {
-  body { background-color: #7491a5 ;}
+  body {
+    body { background-color: #7491a5 ;}
+  }
 }
-
-
 
 .center-image {
-    padding-bottom: 1em;
-    text-align: center;
+    width: 100%;
+    max-width: 1384px;
+    height: auto;
 }
-
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 3em;
-
+    margin-bottom: 2em;
 }
-
-
 .social-media {
     font-size: 2em;
     text-align: center;
