@@ -1,71 +1,66 @@
 .icon-image {
-    text-align: center;
+  text-align: center;
 }
 .body {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: none;
+
 }
 body {
-    font-family: "Courgette", cursive;
-    background-color: #c0cad1;
+  font-family: "Courgette", cursive;
+  background-color: #c0cad1;
 }
-.name {
-    font-style: italic;
-    text-align: center;
-    color: #2f4f4f;
-    font-size: 30;
+.details {
+  font-style: italic;
+  text-align: center;
+  color: #2f4f4f;
+  font-size: 30;
 }
 
 .myname {
-    font-style: normal;
-    text-align: center;
-    color: #2f4f4f;
-    font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  color: #2f4f4f;
+  font-size: 32px;
 }
 .description {
-    font-size: 20px;
-    font-style: normal;
+  font-size: 20px;
+  font-style: normal;
 }
 hr {
-    border: none;
-    height: 3px;
-    color: #333;
-    background-color: #333;
+  border: none;
+  height: 3px;
+  color: #333;
+  background-color: #333;
 }
 .fa-icon {
-    font-size: 50px;
+  font-size: 50px;
 }
 .fa-heart {
-    font-size: 36px;
-    color: blue;
+  font-size: 36px;
+  color: blue;
 }
 
-@media (max-width: 780px)
-{
+@media screen and (max-width: 678px) {
     .container {
-      display: flex;
+      align: center;
     }
-
-    img {
-      display: block;
-      margin: auto;
-      padding: 1em;
-  }
 }
-
 .center-image {
-    width: 100%;
-    max-width: 1384px;
-    height: auto;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
 }
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-start: stretch;
+  margin-bottom: 2em;
+  justify-content: space-between;
 }
 .social-media {
-    font-size: 2em;
-    text-align: center;
+  font-size: 2em;
+  text-align: center;
 }
