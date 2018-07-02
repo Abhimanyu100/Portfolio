@@ -41,15 +41,16 @@ hr {
     color: blue;
 }
 
-@media screen and (min-width: 500px) {
-    body {
-        background-color: #c0cad1;}
-  }
-}
+@media (max-width: 780px)
+{
+    .container {
+      display: flex;
+    }
 
-@media screen and (min-width: 800px) {
-  body {
-    body { background-color: #7491a5 ;}
+    img {
+      display: block;
+      margin: auto;
+      padding: 1em;
   }
 }
 
@@ -62,6 +63,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2em;
+    justify-content: space-between;
 }
 .social-media {
     font-size: 2em;
